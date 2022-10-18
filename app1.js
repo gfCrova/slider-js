@@ -30,4 +30,8 @@ window.addEventListener("load", function() {
 });
 
 
-//
+var fecha = new Date();
+        document.write("Fecha: " + fecha.getDay() + "/" + fecha.getMonth() + "/" + fecha.getFullYear() + " - ");
+
+ var time = new Date();
+        document.write(" "+ "Hora: " + time.getHours() + ":" + time.getMinutes());
